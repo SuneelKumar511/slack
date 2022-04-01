@@ -1,0 +1,30 @@
+
+function piResponse() {
+		piSetCookie('visitor_id755253', '877780697', 3650);
+			piSetCookie('visitor_id755253-hash', '3ad98000b801f4ffc7570e6e58271388ffe421f3c61a0aa7d5d02b0837bf5e23edc3251ad8fab2d628bd58b743f5075f34dd1341', 3650);
+		
+		if (document.location.protocol != "https:" || (document.location.protocol == "https:" && true)) {
+		var analytics_link = document.location.protocol + "//" + "campaign.slackhq.com/analytics?";
+		pi.tracker.visitor_id='877780697';
+
+				pi.tracker.visitor_id_sign='3ad98000b801f4ffc7570e6e58271388ffe421f3c61a0aa7d5d02b0837bf5e23edc3251ad8fab2d628bd58b743f5075f34dd1341';
+		
+				pi.tracker.campaign_id='2520';
+		
+		var variables = 'conly=true';
+		for (property in pi.tracker) {
+					variables += "&" + property + "=" + encodeURIComponent(pi.tracker[property]);
+				}
+		var headID = document.getElementsByTagName("head")[0];
+		piScriptObj[piScriptNum] = document.createElement('script');
+		piScriptObj[piScriptNum].type = 'text/javascript';
+		piScriptObj[piScriptNum].src = analytics_link + variables;
+		headID.appendChild(piScriptObj[piScriptNum]);
+		piScriptObj[piScriptNum].onload = function() { return; }
+	}
+	}
+piResponse();
+
+
+
+

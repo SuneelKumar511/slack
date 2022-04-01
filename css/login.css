@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+.box{
+    height: 680px;
+    width: 450px;
+    margin: 20px 0px 0px 560px;
+}
+.slack-logo{
+    width: 150px;
+    padding: 20px 0px 0px 130px;
+}
+.sign-in-to-slack{
+    font-family :Slack-Lato, Slack-Fractions, appleLogo, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.email-address{
+    text-align: center;
+    font-size: 18px;
+    font-family :Slack-Lato, Slack-Fractions, appleLogo, sans-serif;
+    color: #454245;
+    padding-top: 8px;
+
+}
+#at-work{
+    font-weight: bold;
+
+}
+.input-button{
+    border: 2px solid blue;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 25px;
+    background: none;
+}
+.input-button img{
+    width: 20px;
+    position: absolute;
+    left: 690px;
+    top: 240px;
+}
+a #sign-google{
+    color: #4285f4;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.input-typ{
+    border: 2px solid black;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.input-but{
+    border: 2px solid black;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 25px;
+    background: none;
+
+}
+.input-but img{
+    width: 25px;
+    margin-left: -180px;
+    /* padding-left: 10px; */
+}
+span#sign-goo{
+    color: black;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 313px;
+}
+hr{
+    margin:40px 0px 40px 25px;
+    width: 90%;
+    border-top: 1px solid #ddd;
+   
+}
+.or{
+    background: white;
+    width: 30px;
+    margin: -50px auto 10px;
+    font-family: Slack-Lato,Slack-Fractions,appleLogo,sans-serif;
+
+
+}
+.input-ty{
+    border: 1px solid black;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 17px;
+    padding-left: 5px;
+}
+button{
+    border: 1px solid black;
+    width: 409px;
+    height: 42px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 17px;
+    padding-left: 5px;
+    background-color:#4a154b;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.no-border{
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0px 0px 10px;
+    font-family: Slack-Lato,Slack-Fractions,appleLogo,sans-serif;
+    width: 350px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 15px;
+    background-color: #ddd;
+    border-radius: 3px;
+    color: #696969;
+
+}
+.no-border a{
+    text-decoration: none;
+    font-weight: bold;
+} 
+.conditions{
+    margin-top: 90px;
+    margin-left: 45px;
+}
+.conditions  a{
+    text-decoration: none;
+    padding-left:20px;
+    /* padding-top: 30px; */
+    color: #696969;
+    font-family: Slack-Lato,Slack-Fractions,appleLogo,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
