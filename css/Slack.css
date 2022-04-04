@@ -1,0 +1,688 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Bold.ttf);
+}
+body{
+    border: none;
+}
+.background{
+    background: #611f69;
+    width: 100%;
+    height: 590px;
+}
+/* nav-bar */
+.row{
+    width: 85%;
+    height: 80px;
+    background-color:white;
+    margin-left: 125px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    
+  
+}
+.row img{
+    margin-left: 50px;
+    width: 120px;
+    margin-top: -30px;
+}
+.row .nav-bar a{
+    font-size: 18px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-right: 8px;
+}
+.product:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0px;
+    left: 210px;
+    top: 50px;
+    transition: 0.3s;
+}
+.product:hover{
+ color: indigo;
+}
+.product:hover::after{
+ width: 65px;
+}
+.solutions:after{
+   content: "";
+   position: absolute;
+   background-color: #ff3c78;
+   height: 3px;
+   width: 0px;
+   left: 305px;
+   top: 50px;
+   transition: 0.3s;
+}
+.solutions:hover{
+ color: indigo;
+}
+.solutions:hover::after{
+ width: 75px;
+}
+.interprise::after{
+   content: "";
+   position: absolute;
+   background-color: #ff3c78;
+   height: 3px;
+   width: 0px;
+   left: 410px;
+   top: 50px;
+   transition: 0.3s;
+}
+.interprise:hover{
+ color: indigo;
+}
+.interprise:hover::after{
+ width: 80px;
+}
+.resources::after{
+ content: "";
+   position: absolute;
+   background-color: #ff3c78;
+   height: 3px;
+   width: 0px;
+   left: 518px;
+   top: 50px;
+   transition: 0.3s;
+}
+.resources:hover{
+ color: indigo;
+}
+.resources:hover::after{
+ width: 85px;
+}
+#pricing{
+    margin-right: 200px;
+}
+#pricing::after{
+    content: "";
+      position: absolute;
+      background-color: #ff3c78;
+      height: 3px;
+      width: 0px;
+      left: 635px;
+      top: 50px;
+      transition: 0.3s;
+}
+#pricing:hover{
+    color: indigo;
+}
+#pricing:hover::after{
+    width: 60px;
+}
+.sign-in::after{
+    content: "";
+      position: absolute;
+      background-color: #ff3c78;
+      height: 3px;
+      width: 0px;
+      left: 920px;
+      top: 50px;
+      transition: 0.3s;
+}
+.sign-in:hover{
+    color: indigo;
+}
+.sign-in:hover::after{
+    width: 55px;
+}
+
+#talk {
+    border: 1px solid black;
+    padding: 8px;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+#free{
+    border: 1px solid black;
+    padding: 8px;
+    margin-right: 15px;
+    background: #611f69;
+    color: white;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+.border{
+    width: 900px;
+    height: 500px;
+    /* border: 1px solid yellow; */
+    
+}
+.h1{
+    padding: 170px 0px 0px 180px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 50px;
+}
+.p{
+    padding: 10px 0px 0px 180px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+}
+.check-mark{
+    width: 50px ;
+    position: absolute;
+    top: 240px;
+    left: 160px;
+    color: #fff;
+}
+.check-mar{
+    width: 50px ;
+    position: absolute;
+    top: 335px;
+    left: 160px;
+    color: #fff;
+}.check-ma{
+    width: 50px ;
+    position: absolute;
+    top: 285px;
+    left: 160px;
+    color: #fff;
+}
+li{
+    padding: 30px 0px 0px 210px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    
+}
+.center{
+    padding: 60px 0px 0px 180px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+}
+.center a{
+    font-weight: bold;
+    color: lawngreen;
+}
+.center a:hover{
+    color: blue;
+}
+.icon{
+    width: 550px;
+     height: 300px;
+     /* border: 1px solid red; */
+     margin: 20px 0px 0px 180px;
+}
+.use{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+img{
+    padding-left: 0px;
+    padding-top: 30px;
+}
+.logo{
+    padding-right: 50px;
+}
+.medical{
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.png{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.target{
+    padding-right: 60px;
+}
+hr{
+    width: 35%;
+    /* border-width: medium; */
+    color: darkgrey;
+    /* padding: 30px 0px 0px 50px; */
+    margin: 50px 0px 0px 180px;
+}
+.italic{
+    /* border: 1px solid red; */
+    width: 620px;
+    height: 500px;
+    margin-left: 180px;
+    padding-bottom: 250px;
+}
+.lyfit{
+    padding-top: 40px ;
+}
+.itali{
+     font-style: italic;
+     padding-top: 30px;
+     font-size: 25px;
+     font-family: sans-serif;
+}
+#p{
+    padding-top: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#pi{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+}
+/* .bottom-footer */
+.bottom-footer{
+    width: 100%;
+    height: 450px;
+    line-height: 50px;
+}
+.box20{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 100px;
+    
+}
+.box20 img{
+    width: 70px;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.box21{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px; 
+}
+.box22{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+}
+.box23{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+}
+.box24{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+}
+.box25{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+    
+}
+#why-slack{
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+p{
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+.slack-vs-email {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    padding-left: 20px;
+
+} 
+.slack-vs-email:hover{
+    color: blue;
+}
+/* second-bottom-footer */
+#line{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #454245;
+}
+.contact-us{
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.some-contact{
+    margin-left: 194px;
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.privacy{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.terms{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.cookie{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.us{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.change{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.select{
+    background: none;
+    border: none;
+}
+.all-rights{
+    padding: 50px 0px 0px 190px;
+    font-weight: normal;
+}
+/* input-type-box */
+.half-box{
+    width: 750px;
+    height: 950px;
+    background-color: #fff;
+    border-radius: 1px;
+    position: absolute;
+    top: 130px;
+    right: 20px;
+}
+/* box1 */
+.border1{
+    border: 1px solid black;
+    width: 340px ;
+    height: 50px;
+    border-radius: 3px;
+    float: left;
+    margin: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.first{
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+/* box2 */
+.border2{
+    border: 1px solid black;
+    width: 340px ;
+    height: 50px;
+    border-radius: 3px;
+    float: left;   
+    margin: 20px;
+    padding-left: 10px;
+    margin-left: 1px;
+    margin-top: 13px;
+}
+.first2{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* box3 */
+.email{
+    height: 50px;
+    border: 1px solid black;
+    width: 701px;
+    border-radius: 3px;
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.work-email{
+    position: absolute;
+    top: 110px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 23px;
+    padding-bottom: 10px;
+}
+/* Box4 */
+.country{
+    height: 50px;
+    border: 1px solid black;
+    width: 701px;
+    border-radius: 3px;
+    margin-left: 20px;
+    padding-left: 10px;   
+    margin-top: 40px;
+}
+.triangle{
+    position: absolute;
+    top: 210px;
+    right: 60px;
+    width: 30px;
+}
+.triangl{
+    position: absolute;
+    top: 290px;
+    right: 60px;
+    width: 30px;
+}
+.triang{
+    position: absolute;
+    top: 390px;
+    right: 60px;
+    width: 30px;
+}
+.tria{
+    position: absolute;
+    top: 390px;
+    right: 410px;
+    width: 30px;
+}
+.trian{
+    position: absolute;
+    top: 475px;
+    right: 60px;
+    width: 30px;
+}
+.four-box{
+    position: absolute;
+    top: 200px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 23px;
+    padding-bottom: 20px;
+}
+/* box5 */
+.company{
+    position: absolute;
+    top: 285px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 23px;
+    padding-bottom: 30px;
+}
+/* box6 */
+#company-size{
+    position: absolute;
+    top: 285px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 380px;
+    padding-bottom: 30px;
+}
+/* box7 */
+.Department{
+    position: absolute;
+    top: 380px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 23px;
+    padding-bottom: 30px;
+}
+/* box8 */
+.border3{
+    border: 1px solid black;
+    width: 340px ;
+    height: 50px;
+    border-radius: 3px;
+    float: left;   
+    margin: 20px;
+    padding-left: 10px;
+    margin-left: 1px;
+    margin-top: 30px;
+}
+#role{
+    position: absolute;
+    top: 385px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 380px;
+    padding-bottom: 40px;
+}
+/* box9 */
+.border4{
+    border: 1px solid black;
+    width: 340px ;
+    height: 50px;
+    border-radius: 3px;
+    float: left;   
+    margin: 20px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.phone-number{
+    position: absolute;
+    top: 470px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 23px;
+    padding-bottom: 30px;
+}
+/* box10 */
+.border5{
+    border: 1px solid black;
+    width: 340px ;
+    height: 50px;
+    border-radius: 3px;
+    float: left;   
+    margin: 20px;
+    padding-left: 10px;
+    margin-left: 1px;
+    margin-top: 15px;
+}
+#help-you{
+    position: absolute;
+    top: 470px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 380px;
+    padding-bottom: 40px;
+}
+.countr{
+    height: 100px;
+    border: 1px solid black;
+    width: 700px;
+    border-radius: 3px;
+    margin-left: 20px;
+    padding-left: 10px;   
+    margin-top: 60px;
+}
+.optional{
+    position: absolute;
+    top: 600px;
+    font-family: sans-serif;
+    font-weight: bold;
+    left: 23px;
+    padding-bottom: 30px;
+}
+.clicking{
+    margin-top: 20px;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+.clicking a{
+    color: red;
+    font-family: sans-serif;
+}
+.field{
+    margin-top: 10px;
+    color: red;
+}
+button{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #611f69;
+    padding: 13px 40px 13px 40px;
+    border-radius: 3px;
+    border: none;
+    margin: 20px 0px 0px 20px;
+}
+button:hover{
+    color: black;
+    background: #fff;
+}
+.image img{
+    width: 25px;
+    position: absolute;
+    right: 300px;
+    top: 1960px;
+}
+.imag img{
+    width: 45px;
+    position: absolute;
+    right: 256px;
+    top: 1952px;
+}
+.ima img{
+    width: 36px;
+    position: absolute;
+    right: 228px;
+    top: 1958px;
+}
+.im img{
+    width: 36px;
+    position: absolute;
+    right: 220px;
+    top: 1958px;
+}
+.twiter{
+    width: 120px ;
+    position: absolute;
+    right: 180px;
+    top: 1955px;
+}
+.cloud{
+    position: absolute;
+    top: 1950px;
+    right: 470px;
+    width: 40px;
+    /* border: 1px solid rebeccapurple; */
+}
+#download-slack{
+    position: absolute;
+    top: 1995px;
+    right: 340px;
+    color: blue;
+}

@@ -35,9 +35,105 @@ body{
     font-family: sans-serif;
     margin-right: 8px;
 }
+.product:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0px;
+    left: 335px;
+    top: 50px;
+    transition: 0.3s;
+}
+.product:hover{
+ color: indigo;
+}
+.product:hover::after{
+ width: 65px;
+}
+.solutions:after{
+   content: "";
+   position: absolute;
+   background-color: #ff3c78;
+   height: 3px;
+   width: 0px;
+   left: 430px;
+   top: 50px;
+   transition: 0.3s;
+}
+.solutions:hover{
+ color: indigo;
+}
+.solutions:hover::after{
+ width: 75px;
+}
+.interprise::after{
+   content: "";
+   position: absolute;
+   background-color: #ff3c78;
+   height: 3px;
+   width: 0px;
+   left: 535px;
+   top: 50px;
+   transition: 0.3s;
+}
+.interprise:hover{
+ color: indigo;
+}
+.interprise:hover::after{
+ width: 80px;
+}
+.resources::after{
+ content: "";
+   position: absolute;
+   background-color: #ff3c78;
+   height: 3px;
+   width: 0px;
+   left: 643px;
+   top: 50px;
+   transition: 0.3s;
+}
+.resources:hover{
+ color: indigo;
+}
+.resources:hover::after{
+ width: 85px;
+}
 #pricing{
     margin-right: 200px;
 } 
+#pricing::after{
+    content: "";
+      position: absolute;
+      background-color: #ff3c78;
+      height: 3px;
+      width: 0px;
+      left: 760px;
+      top: 50px;
+      transition: 0.3s;
+}
+#pricing:hover{
+    color: indigo;
+}
+#pricing:hover::after{
+    width: 60px;
+}
+.sign-in::after{
+    content: "";
+      position: absolute;
+      background-color: #ff3c78;
+      height: 3px;
+      width: 0px;
+      left: 1045px;
+      top: 50px;
+      transition: 0.3s;
+}
+.sign-in:hover{
+    color: indigo;
+}
+.sign-in:hover::after{
+    width: 55px;
+}
 #talk {
     border: 1px solid black;
     padding: 8px;
@@ -96,7 +192,7 @@ hr{
     padding: 5px 0px 0px 5px;
     float: left;
 }
-.box1{
+.box01{
     width: 480px;
     float: left;
     height: 130px;
@@ -110,14 +206,15 @@ h4{
 }
 #little-para{
     position: absolute;
-    top: 350px;
-    left: 214px;
+    top: 320px;
+    left: 189px;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     font-size: 14px;
     line-height: 20px;
     font-weight: 550;
+    color: black;
 }
-.box2{
+.box02{
     
     width: 480px;
     float: left;
@@ -126,14 +223,15 @@ h4{
 }
 #little-par{
     position: absolute;
-    top: 350px;
-    left: 709px;
+    top: 320px;
+    left: 682px;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     font-size: 14px;
     line-height: 20px;
     font-weight: 550;
+    color: black;
 }
-.box3{
+.box03{
     width: 480px;
     float: left;
     height: 130px;
@@ -141,12 +239,13 @@ h4{
 }
 #little-pa{
     position: absolute;
-    top: 350px;
-    left: 1205px;
+    top: 320px;
+    left: 1180px;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     font-size: 14px;
     line-height: 20px;
     font-weight: 550;
+    color: black;
 }
 .hori{
     width: 93%;
@@ -164,9 +263,10 @@ h4{
     padding-top: 30px;
     float: left;
 }
-.guide{
+.guid{
     float: left;
     padding: 40px 30px;
+    color: black
 }
 .top{
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
@@ -174,19 +274,22 @@ h4{
     position: absolute;
     top: 520px;
     right: 118px;
+    color: black;
 }
 .Jump-into-Slack{
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     position: absolute;
-    top: 560px;
+    top: 550px;
     right: 110px;
     line-height: 25px;
     font-size: 17px;
+    color: black;
 }
-.guid{
+.gui{
  position: absolute;
  right: 500px;
  padding-top: 300px;
+ color: black;
 }
 .bottom{
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
@@ -199,8 +302,454 @@ h4{
 .slack-channel{
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     position: absolute;
-    top: 840px;
+    top: 830px;
     right: 110px;
     line-height: 25px;
     font-size: 17px;
+    color: black;
 }
+/* card-backgrounds */
+.main{
+    width: 100%;
+    height: 2500px;
+    /* background: green; */
+    margin-top: 200px;
+}
+/* cards */
+.box1{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: #49154b;
+}
+.collection{
+    padding: 25px 0px 0px 25px;
+    color: #fff;
+    font-family: sans-serif;
+}
+h2{
+    font-family: sans-serif;
+    color: #fff;
+    padding: 22px 0px 0px 25px;
+}
+p{
+    color: #fff;
+    font-family: sans-serif;
+    padding: 22px 0px 0px 25px;
+    line-height: 25px;
+}
+.image img{
+    width: 340px;
+    padding-top: 120px;
+}
+.see-all{
+    padding: 10px 0px 0px 25px; 
+    
+    font-family: sans-serif;
+    color: blue;
+}
+/* box2 */
+.box2{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 28px;
+    margin-top: 30px;
+    background-color: #f4ede4;
+}
+.collectio{
+    padding: 25px 0px 0px 25px;
+    color: black;
+    font-family: sans-serif;
+}
+.h3{
+    font-family: sans-serif;
+    color: black;
+    padding: 22px 0px 0px 25px;
+}
+.learn{
+    color: black;
+    font-family: sans-serif;
+    padding: 22px 0px 0px 25px;
+    line-height: 25px;
+}
+.imags img{
+    width: 340px;
+    padding-top: 48px;
+}
+/* box3 */
+.box3{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 28px;
+    margin-top: 30px;
+    background-color: #49154b;
+}
+.box4{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 28px;
+    margin-top: 30px;
+    background-color: #f4ede4;
+}
+/* filter content */
+.all{
+    
+    font-family: sans-serif;
+    font-size: 60px;
+    position: absolute;
+    left: 50px;
+    top: 1750px;
+}
+.button{
+    position: absolute;
+    top: 1760px;
+    right: 50px;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 15PX;
+    color: #611f69;
+    background: none;
+    font-weight: bold;
+    padding: 17px 22px 17px 17px;
+    border-radius: 4px;
+    border: 1px solid #611f69;
+}
+/* box5 */
+.box5{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+.img img{
+    width: 340px;
+    padding: 0px 0px 0px 3px;
+}
+.report{
+    padding: 15px 0px 0px 25px;
+    color: black;
+    font-family: sans-serif;
+}
+.white-paper{
+    font-family: sans-serif;
+    color: black;
+    padding: 10px 0px 0px 25px;
+}
+.choice{
+    color: black;
+    font-family: sans-serif;
+    padding: 22px 0px 0px 25px;
+}
+.box6{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 28px;
+    margin-top: 200px;
+}
+.box7{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 28px;
+    margin-top: 200px;
+}
+.box8{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 28px;
+    margin-top: 200px;
+}
+/* box9 */
+.box9{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.report{
+    padding: 10px 0px 0px 25px;
+    color: black;
+    font-family: sans-serif;
+}
+.white-paper{
+    font-family: sans-serif;
+    color: black;
+    padding: 5px 0px 5px 25px;
+}
+.choice{
+    color: black;
+    font-family: sans-serif;
+    padding: 15px 0px 0px 25px;
+}
+.box10{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+.box11{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+.box12{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+.box13{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.box14{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+.box15{
+    width: 350px ;
+    height: 550px;
+    /* border: 1px solid red; */
+    float: left;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+.box16{
+    width: 350px ;
+    height: 550px;
+    float: left;
+    margin-left: 28px;
+    margin-top: 30px;
+}
+.number{
+    width: 100%;
+    height: 70px;
+     text-align: center;
+     margin-top: 50px;
+}
+.one-two{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    padding-top: 100px;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.one-two:hover{
+    color: blue;
+}
+.number a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 100px;
+}
+/* footer */
+.bg-color{
+    background-color:darkslateblue;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+.digital{
+    font-size: 50px;
+    color: #ffff;
+    font-family: sans-serif;
+   
+    padding-top: 130px;
+}
+
+#try-for-free{
+    margin-top: 30px;
+    padding: 18px 35px 18px 35px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    /* border: none; */
+    font-weight: bold;
+}
+#try-for-fre{
+    margin-top: 30px;
+    padding: 17px 35px 17px 35px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    background-color: darkslateblue;
+    border: 1px solid white;
+    color: #fff;
+}
+/* .bottom-footer */
+.bottom-footer{
+    width: 100%;
+    height: 450px;
+    line-height: 50px;
+}
+.box20{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 100px;
+    
+}
+.box20 img{
+    width: 70px;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.box21{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px; 
+}
+.box22{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+}
+.box23{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+}
+.box24{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+}
+.box25{
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+    
+}
+#why-slack{
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+p{
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+.slack-vs-email {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    padding-left: 20px;
+
+} 
+.slack-vs-email:hover{
+    color: blue;
+}
+/* second-bottom-footer */
+#line{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #454245;
+}
+.contact-us{
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.some-contact{
+    margin-left: 194px;
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.privacy{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.terms{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.cookie{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.us{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.change{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.select{
+    background: none;
+    border: none;
+}
+.all-rights{
+    padding: 0px 0px 0px 190px;
+    font-weight: normal;
+}
+.twiter{
+    width: 120px ;
+    position: absolute;
+    right: 180px;
+    top: 1955px;
+}
+.cloud{
+    position: absolute;
+    top: 1950px;
+    right: 470px;
+    width: 40px;
+    /* border: 1px solid rebeccapurple; */
+}
+#download-slack{
+    position: absolute;
+    top: 1995px;
+    right: 340px;
+    color: blue;
+}
+
