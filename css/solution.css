@@ -183,11 +183,11 @@ body{
 }
 .recorded-button{
     font-size: 22px;
-    background-color: blueviolet;
+    background-color:blueviolet;
     color: white;
     text-align: center;
     border: none;
-    padding: 9px 2px 13px 2px;
+    padding: 10px 15px 10px 15px;
     border-radius: 3px;
     margin: 20px 5px 0px 0px;
     transition: 1s;
