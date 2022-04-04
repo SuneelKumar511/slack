@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: opx;
+    border: none;
+
+}
+body{
+    background-color: bisque;
+}
+.footer{
+    width: 100%;
+    height: 650px;
+    background-color: yellow;
+}
+.footer .row{
+    width: 100%;
+    height: 130px;
+}
+.row #deeper{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 32px;
+}
+/* box */
+.box{
+    max-width: 285px;
+    min-height: 420px;
+    background-color: #ffff;
+    margin: 30px 5px 50px 170px;
+    float: left;
+    transition:transform 420ms;
+    flex-direction: column;
+    z-index: 1;
+}
+.box:hover{
+    transform: translateY(-5px);
+}
+.box img{
+    padding: 14px;
+}
+#solution{
+    text-decoration: none;
+    font-weight: 400;
+    margin: 8px 0 0 13px; 
+    color:#454245;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+
+}
+#can{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif; 
+    padding: 5px 3px 85px 13px;
+    color: #000;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+#explore{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  
+    padding-left: 13px;
+}
+/* box1 */
+.box1{
+    max-width: 285px;
+    min-height: 420px;
+    background-color: #ffff;
+    margin: 30px 5px 50px 20px;
+    float: left;
+    transition:transform 420ms;
+    flex-direction: column;
+    z-index: 1;
+}
+.box1:hover{
+    transform: translateY(-5px);
+}
+.box1 img{
+    padding: 14px;
+}
+#solution{
+    text-decoration: none;
+    font-weight: 400;
+    margin: 8px 0 0 13px; 
+    color:#454245;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+h3 #can{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif; 
+    padding: 5px 20px 85px 13px;
+    color: #000;
+    font-weight: 800;
+    line-height: 30px;
+    font-size: 27px;
+}
+#explore{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    padding-left: 13px;
+}
+/* box2 */
+.box2{
+    max-width: 285px;
+    min-height: 420px;
+    background-color: #ffff;
+    margin: 30px 5px 50px 20px;
+    float: left;
+    transition:transform 420ms;
+    flex-direction: column;
+    z-index: 1;
+}
+.box2:hover{
+    transform: translateY(-5px);
+}
+.box2 img{
+    padding: 14px;
+}
+#solution{
+    text-decoration: none;
+    font-weight: 400;
+    margin: 8px 0 0 13px; 
+    color:#454245;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+#can{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif; 
+    padding: 5px 3px 85px 13px;
+    color: #000;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 22px;
+}
+#explore{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    padding-left: 13px;
+}
+/* box3 */
+.box3{
+    max-width: 285px;
+    min-height: 420px;
+    background-color: #ffff;
+    margin: 30px 5px 50px 20px;
+    float: left;
+    transition:transform 420ms;
+    flex-direction: column;
+    z-index: 1;
+}
+.box3:hover{
+    transform: translateY(-5px);
+}
+.box3 img{
+    padding: 14px;
+}
+#solution{
+    text-decoration: none;
+    font-weight: 400;
+    margin: 8px 0 0 13px; 
+    color:#454245;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+#can{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif; 
+    padding: 5px 3px 85px 13px;
+    color: #000;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 22px;
+}
+#explore{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    padding-left: 13px;
+}
+.bg-color{
+    background-color:darkslateblue;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+.digital{
+    font-size: 50px;
+    color: #ffff;
+    font-family: sans-serif;
+   
+    padding-top: 130px;
+}
+
+#try-for-free{
+    margin-top: 30px;
+    padding: 18px 35px 18px 35px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    /* border: none; */
+    font-weight: bold;
+}
+#try-for-fre{
+    margin-top: 30px;
+    padding: 17px 35px 17px 35px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    background-color: darkslateblue;
+    border: 1px solid white;
+    color: #fff;
+}
+.bottom-footer{
+    /* background-color: rgb(189, 207, 223); */
+    width: 100%;
+    height: 450px;
+    /* text-align: center; */
+    line-height: 50px;
+}
+.box5{
+    border: 1px solid red;
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 100px;
+    
+}
+.box6{
+    
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+    
+}
+.box7{
+   
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+    
+}
+.box8{
+    
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+
+}
+.box9{
+   
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+   
+}
+.box10{
+    
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    margin: 15px 3px 3px 15px;
+    
+}
+#why-slack{
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+p{
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+#line{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #454245;
+
+}
+.contact-us{
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.some-contact{
+    margin-left: 194px;
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.privacy{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.terms{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.cookie{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.us{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.change{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.select{
+    background: none;
+}
